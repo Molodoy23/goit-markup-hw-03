@@ -1,4 +1,4 @@
-b:root {
+:root {
   --main-color: #2196f3;
   --second-color: #212121;
   --description-color: #757575;
@@ -10,12 +10,28 @@ b:root {
 button {
   cursor: pointer;
 }
-
 li {
   list-style-type: none;
 }
 /* Шапка */
-
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-items {
+  display: flex;
+  margin-left: 93px;
+}
+.nav-items .item:not(:last-child) {
+  margin-right: 50px;
+}
 .span-logo {
   color: var(--main-color);
 }
@@ -28,7 +44,12 @@ li {
   letter-spacing: 0.03em;
 }
 .items {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--second-color);
+
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 14px;
@@ -42,6 +63,14 @@ li {
 .is-active {
   color: var(--main-color);
 }
+.nav-adress {
+  display: flex;
+  margin: auto;
+}
+.nav-adress-items:not(:last-child) {
+  margin-right: 50px;
+}
+
 .adress-items {
   color: var(--description-color);
   font-family: 'Roboto';
@@ -59,17 +88,27 @@ main {
   font-family: 'Roboto';
 }
 .main-section {
+  width: 1600px;
+  height: 600px;
+  padding-top: 200px;
+  margin-bottom: 94px;
+
   background: var(--bg-hero-and-footer);
   text-align: center;
 }
 .main-title {
+  width: 696px;
   color: var(--title-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: 0 auto;
 }
 .buy-button {
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -81,6 +120,18 @@ main {
   border: 0;
 }
 .advantage {
+  display: flex;
+}
+.advantage-section > h2 {
+  display: none;
+}
+.advantage-section {
+  margin-bottom: 94px;
+}
+.advantage-items:not(:last-child) {
+  margin-right: 30px;
+}
+.advantage-header {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -98,13 +149,21 @@ main {
 .team {
   background: var(--bg-section-team);
 }
-.section-header {
+.work-section-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-bottom: 50px;
+}
+.work-gallery {
+  display: flex;
+  margin-bottom: 94px;
+}
+.work-items:not(:last-child) {
+  margin-right: 30px;
 }
 .card-name {
   font-weight: 500;

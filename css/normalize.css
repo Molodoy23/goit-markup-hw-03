@@ -4,8 +4,7 @@
   box-sizing: border-box;
 }
 
-ul[class],
-ol[class],
+ol,
 ul,
 ol {
   padding: 0;
@@ -23,8 +22,8 @@ h2,
 h3,
 h4,
 p,
-ul[class],
-ol[class],
+ul,
+ol,
 li,
 figure,
 figcaption,
@@ -37,7 +36,7 @@ dd {
 }
 
 body {
-  font-family: "FuturaBT-Book";
+  font-family: 'FuturaBT-Book';
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -50,8 +49,8 @@ body {
   user-select: text;
 }
 
-ul[class],
-ol[class] {
+ul,
+ol {
   list-style: none;
 }
 
@@ -78,12 +77,12 @@ article > * + * {
 }
 
 /* Наследуем шрифты для инпутов и кнопок */
- input,
- button,
- textarea,
- select {
-   font: inherit;
- }
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
 
 /* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
 @media (prefers-reduced-motion: reduce) {
