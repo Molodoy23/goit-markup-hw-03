@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <header>
-      <nav class="nav-menu container">
+    <header class="container">
+      <nav class="nav-menu">
         <a href="./index.html" class="header-logo"><span class="span-logo">Web</span>Studio</a>
         <ul class="nav-items">
           <li class="item">
@@ -27,15 +27,16 @@
             <a href="" class="items">Контакты</a>
           </li>
         </ul>
-
-        <ul class="nav-adress">
-          <li class="nav-adress-items">
-            <a href="mailto:info@devstudio.com" class="adress-items">info@devstudio.com</a>
-          </li>
-          <li class="nav-adress-items">
-            <a href="tel:+380961111111" class="adress-items">+38 096 111 11 11</a>
-          </li>
-        </ul>
+        <div class="item">
+          <ul class="nav-adress">
+            <li class="nav-adress-items">
+              <a href="mailto:info@devstudio.com" class="adress-items">info@devstudio.com</a>
+            </li>
+            <li class="nav-adress-items">
+              <a href="tel:+380961111111" class="adress-items">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -44,7 +45,7 @@
         <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="buy-button">Заказать услугу</button>
       </section>
-      <section class="advantage-section">
+      <section class="advantage-section container">
         <h2>Наши преймущества</h2>
         <ul class="advantage container">
           <li class="advantage-items">
@@ -95,26 +96,26 @@
         </ul>
       </section>
 
-      <section class="team">
+      <section class="team container">
         <h2 class="section-header">Наша команда</h2>
 
-        <ul>
-          <li>
+        <ul class="team-card">
+          <li class="cards">
             <img src="./images/Igor.jpg" alt="Игорь" width="270" height="260" />
             <h3 class="card-name">Игорь Демьяненко</h3>
             <p class="card-description">Product Designer</p>
           </li>
-          <li>
+          <li class="cards">
             <img src="./images/Olga.jpg" alt="Михаил" width="270" height="260" />
             <h3 class="card-name">Ольга Репина</h3>
             <p class="card-description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="cards">
             <img src="./images/Nikolai.jpg" alt="Николай" width="270" height="260" />
             <h3 class="card-name">Николай Тарасов</h3>
             <p class="card-description">Marketing</p>
           </li>
-          <li>
+          <li class="cards">
             <img src="./images/Mihail.jpg" alt="Михаил" width="270" height="260" />
             <h3 class="card-name">Михаил Ермаков</h3>
             <p class="card-description">UI Designer</p>

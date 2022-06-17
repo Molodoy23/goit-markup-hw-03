@@ -28,6 +28,7 @@ li {
 .nav-items {
   display: flex;
   margin-left: 93px;
+  margin: 0 auto;
 }
 .nav-items .item:not(:last-child) {
   margin-right: 50px;
@@ -146,8 +147,14 @@ main {
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
-.team {
+.cards {
+  display: flex;
+  flex-direction: row;
   background: var(--bg-section-team);
+}
+.card-name {
+  display: flex;
+  flex-wrap: wrap;
 }
 .work-section-header {
   font-weight: 700;
@@ -157,6 +164,9 @@ main {
   letter-spacing: 0.03em;
   color: var(--second-color);
   margin-bottom: 50px;
+}
+.cards:not(:last-child) {
+  margin-right: 30px;
 }
 .work-gallery {
   display: flex;
