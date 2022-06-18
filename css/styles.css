@@ -17,7 +17,7 @@ li {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -132,9 +132,6 @@ main {
 }
 .advantage {
   display: flex;
-}
-.advantage-section > h2 {
-  display: none;
 }
 .advantage-section {
   margin-bottom: 94px;
@@ -268,7 +265,7 @@ address {
 }
 /* Portfolio */
 
-.menu-items {
+.filter-buttoms {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -281,8 +278,8 @@ address {
   width: 128px;
   height: 38px;
 }
-.menu-items:hover,
-.menu-items:focus {
+.filter-buttoms:hover,
+.filter-buttoms:focus {
   color: var(--title-color);
   background: var(--main-color);
   border: 0;
@@ -298,12 +295,16 @@ address {
   letter-spacing: 0.06em;
   color: var(--second-color);
 }
+.card-groop {
+  padding: 20px 24px;
+}
 .card-descriptions {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--description-color);
+  padding-top: 4px;
 }
 .footer-contacts:hover,
 .footer-contacts:focus {
@@ -315,4 +316,25 @@ address {
   padding-bottom: 60px;
 
   padding-top: 60px;
+}
+.filter-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.filter-item:not(:last-child) {
+  margin-right: 8px;
+}
+.content-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content-items {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+}
+.content-items:nth-child(3n) {
+  margin-right: 0px;
 }
