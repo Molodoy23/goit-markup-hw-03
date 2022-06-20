@@ -321,7 +321,7 @@ address {
   display: flex;
   justify-content: center;
   padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .filter-item:not(:last-child) {
   margin-right: 8px;
@@ -331,7 +331,6 @@ address {
   flex-wrap: wrap;
   flex-basis: calc(100% / 3 - 20px);
   margin-left: -20px;
-  margin-top: -20px;
 }
 .content-items {
   margin-top: 15px;
