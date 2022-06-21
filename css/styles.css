@@ -26,7 +26,6 @@ li {
 .nav-items {
   display: flex;
   margin-left: 93px;
-  margin: 0 auto;
 }
 .nav-items .item:not(:last-child) {
   margin-right: 50px;
@@ -64,7 +63,7 @@ li {
 }
 .nav-adress {
   display: flex;
-  margin: auto;
+  margin-left: auto;
 }
 .nav-adress-items:not(:last-child) {
   margin-right: 50px;
@@ -90,7 +89,6 @@ main {
   width: 100%;
 
   padding: 200px 0px;
-  margin-bottom: 94px;
 
   background: var(--bg-hero-and-footer);
   text-align: center;
@@ -108,6 +106,7 @@ main {
 .hero-title {
   width: 696px;
   color: var(--title-color);
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -130,10 +129,9 @@ main {
 }
 .advantage {
   display: flex;
+  padding-top: 94px;
 }
-.advantage-section {
-  margin-bottom: 94px;
-}
+
 .advantage-items:not(:last-child) {
   margin-right: 30px;
 }
@@ -191,9 +189,12 @@ main {
 
   padding: 94px;
 }
+.work {
+  padding-top: 94px;
+}
 .work-gallery {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .work-items:not(:last-child) {
   margin-right: 30px;
@@ -328,6 +329,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc(100% / 3 - 20px);
+  padding-bottom: 94px;
 }
 .content-items {
   margin-top: 15px;
@@ -339,7 +341,7 @@ address {
   margin-right: 0px;
 }
 .content-items:nth-last-child(-n + 3) {
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 .content-items:nth-child(-n + 3) {
   margin-top: 0px;
